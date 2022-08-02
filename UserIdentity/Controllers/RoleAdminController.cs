@@ -129,7 +129,7 @@ namespace UserIdentity.Controllers
                 }
                 return RedirectToAction("Index");
             }
-            return View("Error", new string[] { "Aranaılan rol bulunamadı!" });
+            return View("Error", new string[] { "Aranılan rol bulunamadı!" });
         }
 
     }
